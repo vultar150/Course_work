@@ -1,0 +1,158 @@
+<system>
+	<task index="77" maj_fr="100000" prio="77" bcet="4" wcet="718" period="10000" deadline="10000" proc="5" Dep="" Inf="78" />
+	<task index="78" maj_fr="100000" prio="78" bcet="3" wcet="80" period="10000" deadline="10000" proc="5" Dep="77" Inf="80,81,79" />
+	<task index="79" maj_fr="100000" prio="79" bcet="1" wcet="10" period="10000" deadline="10000" proc="5" Dep="78" Inf="" />
+	<task index="80" maj_fr="100000" prio="80" bcet="6" wcet="97" period="10000" deadline="10000" proc="5" Dep="78" Inf="" />
+	<task index="81" maj_fr="100000" prio="81" bcet="2" wcet="546" period="10000" deadline="10000" proc="5" Dep="78" Inf="82" />
+	<task index="82" maj_fr="100000" prio="82" bcet="2" wcet="830" period="10000" deadline="10000" proc="5" Dep="81" Inf="" />
+	<task index="83" maj_fr="100000" prio="83" bcet="4" wcet="102" period="10000" deadline="10000" proc="5" Dep="" Inf="84" />
+	<task index="84" maj_fr="100000" prio="84" bcet="5" wcet="533" period="10000" deadline="10000" proc="5" Dep="83" Inf="85" />
+	<task index="85" maj_fr="100000" prio="85" bcet="8" wcet="961" period="10000" deadline="10000" proc="5" Dep="84" Inf="86" />
+	<task index="86" maj_fr="100000" prio="86" bcet="7" wcet="505" period="10000" deadline="10000" proc="5" Dep="85" Inf="87" />
+	<task index="87" maj_fr="100000" prio="87" bcet="5" wcet="346" period="10000" deadline="10000" proc="5" Dep="86" Inf="" />
+	<task index="61" maj_fr="100000" prio="61" bcet="1" wcet="189" period="10000" deadline="10000" proc="4" Dep="" Inf="62" />
+	<task index="62" maj_fr="100000" prio="62" bcet="5" wcet="316" period="10000" deadline="10000" proc="4" Dep="61" Inf="63" />
+	<task index="63" maj_fr="100000" prio="63" bcet="9" wcet="751" period="10000" deadline="10000" proc="4" Dep="62" Inf="64,65" />
+	<task index="64" maj_fr="100000" prio="64" bcet="6" wcet="218" period="10000" deadline="10000" proc="4" Dep="63" Inf="" />
+	<task index="65" maj_fr="100000" prio="65" bcet="5" wcet="270" period="10000" deadline="10000" proc="4" Dep="63" Inf="66" />
+	<task index="66" maj_fr="100000" prio="66" bcet="5" wcet="809" period="10000" deadline="10000" proc="4" Dep="65" Inf="67,68" />
+	<task index="67" maj_fr="100000" prio="67" bcet="3" wcet="512" period="10000" deadline="10000" proc="4" Dep="66" Inf="" />
+	<task index="68" maj_fr="100000" prio="68" bcet="1" wcet="173" period="10000" deadline="10000" proc="4" Dep="66" Inf="69" />
+	<task index="69" maj_fr="100000" prio="69" bcet="10" wcet="999" period="10000" deadline="10000" proc="4" Dep="68" Inf="" />
+	<task index="70" maj_fr="100000" prio="70" bcet="1" wcet="292" period="10000" deadline="10000" proc="4" Dep="" Inf="71" />
+	<task index="71" maj_fr="100000" prio="71" bcet="7" wcet="166" period="10000" deadline="10000" proc="4" Dep="70" Inf="72" />
+	<task index="72" maj_fr="100000" prio="72" bcet="3" wcet="336" period="10000" deadline="10000" proc="4" Dep="71" Inf="" />
+	<task index="73" maj_fr="100000" prio="73" bcet="6" wcet="245" period="10000" deadline="10000" proc="4" Dep="" Inf="74" />
+	<task index="74" maj_fr="100000" prio="74" bcet="8" wcet="664" period="10000" deadline="10000" proc="4" Dep="73" Inf="41,75,76" />
+	<task index="75" maj_fr="100000" prio="75" bcet="5" wcet="465" period="10000" deadline="10000" proc="4" Dep="74" Inf="" />
+	<task index="76" maj_fr="100000" prio="76" bcet="10" wcet="63" period="10000" deadline="10000" proc="4" Dep="74" Inf="" />
+	<task index="41" maj_fr="100000" prio="41" bcet="6" wcet="393" period="10000" deadline="10000" proc="3" Dep="74" Inf="" />
+	<task index="42" maj_fr="100000" prio="42" bcet="2" wcet="983" period="10000" deadline="10000" proc="3" Dep="" Inf="43,44,45,46,47" />
+	<task index="43" maj_fr="100000" prio="43" bcet="6" wcet="912" period="10000" deadline="10000" proc="3" Dep="42" Inf="" />
+	<task index="44" maj_fr="100000" prio="44" bcet="2" wcet="601" period="10000" deadline="10000" proc="3" Dep="42" Inf="" />
+	<task index="45" maj_fr="100000" prio="45" bcet="1" wcet="912" period="10000" deadline="10000" proc="3" Dep="42" Inf="" />
+	<task index="46" maj_fr="100000" prio="46" bcet="7" wcet="939" period="10000" deadline="10000" proc="3" Dep="42" Inf="" />
+	<task index="47" maj_fr="100000" prio="47" bcet="7" wcet="306" period="10000" deadline="10000" proc="3" Dep="42" Inf="" />
+	<task index="48" maj_fr="100000" prio="48" bcet="6" wcet="45" period="10000" deadline="10000" proc="3" Dep="" Inf="49,50" />
+	<task index="49" maj_fr="100000" prio="49" bcet="10" wcet="848" period="10000" deadline="10000" proc="3" Dep="48" Inf="" />
+	<task index="50" maj_fr="100000" prio="50" bcet="4" wcet="528" period="10000" deadline="10000" proc="3" Dep="48" Inf="51,52" />
+	<task index="51" maj_fr="100000" prio="51" bcet="1" wcet="139" period="10000" deadline="10000" proc="3" Dep="50" Inf="" />
+	<task index="52" maj_fr="100000" prio="52" bcet="3" wcet="513" period="10000" deadline="10000" proc="3" Dep="50" Inf="53" />
+	<task index="53" maj_fr="100000" prio="53" bcet="6" wcet="769" period="10000" deadline="10000" proc="3" Dep="52" Inf="54" />
+	<task index="54" maj_fr="100000" prio="54" bcet="8" wcet="100" period="10000" deadline="10000" proc="3" Dep="53" Inf="55" />
+	<task index="55" maj_fr="100000" prio="55" bcet="3" wcet="457" period="10000" deadline="10000" proc="3" Dep="54" Inf="" />
+	<task index="56" maj_fr="100000" prio="56" bcet="10" wcet="742" period="10000" deadline="10000" proc="3" Dep="" Inf="57,58" />
+	<task index="57" maj_fr="100000" prio="57" bcet="6" wcet="412" period="10000" deadline="10000" proc="3" Dep="56" Inf="" />
+	<task index="58" maj_fr="100000" prio="58" bcet="8" wcet="64" period="10000" deadline="10000" proc="3" Dep="56" Inf="" />
+	<task index="59" maj_fr="100000" prio="59" bcet="4" wcet="376" period="10000" deadline="10000" proc="3" Dep="" Inf="60,28" />
+	<task index="60" maj_fr="100000" prio="60" bcet="4" wcet="330" period="10000" deadline="10000" proc="3" Dep="59" Inf="" />
+	<task index="28" maj_fr="100000" prio="28" bcet="10" wcet="212" period="10000" deadline="10000" proc="2" Dep="59" Inf="29" />
+	<task index="29" maj_fr="100000" prio="29" bcet="5" wcet="320" period="10000" deadline="10000" proc="2" Dep="28" Inf="" />
+	<task index="30" maj_fr="100000" prio="30" bcet="2" wcet="846" period="10000" deadline="10000" proc="2" Dep="" Inf="31" />
+	<task index="31" maj_fr="100000" prio="31" bcet="1" wcet="704" period="10000" deadline="10000" proc="2" Dep="30" Inf="" />
+	<task index="32" maj_fr="100000" prio="32" bcet="7" wcet="694" period="10000" deadline="10000" proc="2" Dep="" Inf="33" />
+	<task index="33" maj_fr="100000" prio="33" bcet="9" wcet="411" period="10000" deadline="10000" proc="2" Dep="32" Inf="" />
+	<task index="34" maj_fr="100000" prio="34" bcet="2" wcet="869" period="10000" deadline="10000" proc="2" Dep="" Inf="35" />
+	<task index="35" maj_fr="100000" prio="35" bcet="3" wcet="808" period="10000" deadline="10000" proc="2" Dep="34" Inf="" />
+	<task index="36" maj_fr="100000" prio="36" bcet="7" wcet="10" period="10000" deadline="10000" proc="2" Dep="" Inf="37" />
+	<task index="37" maj_fr="100000" prio="37" bcet="9" wcet="547" period="10000" deadline="10000" proc="2" Dep="36" Inf="38" />
+	<task index="38" maj_fr="100000" prio="38" bcet="9" wcet="993" period="10000" deadline="10000" proc="2" Dep="37" Inf="40,17,39" />
+	<task index="39" maj_fr="100000" prio="39" bcet="3" wcet="44" period="10000" deadline="10000" proc="2" Dep="38" Inf="" />
+	<task index="40" maj_fr="100000" prio="40" bcet="3" wcet="488" period="10000" deadline="10000" proc="2" Dep="38" Inf="" />
+	<task index="17" maj_fr="100000" prio="17" bcet="1" wcet="550" period="10000" deadline="10000" proc="1" Dep="38" Inf="18" />
+	<task index="18" maj_fr="100000" prio="18" bcet="7" wcet="64" period="10000" deadline="10000" proc="1" Dep="17" Inf="19" />
+	<task index="19" maj_fr="100000" prio="19" bcet="6" wcet="153" period="10000" deadline="10000" proc="1" Dep="18" Inf="" />
+	<task index="20" maj_fr="100000" prio="20" bcet="6" wcet="765" period="10000" deadline="10000" proc="1" Dep="" Inf="21" />
+	<task index="21" maj_fr="100000" prio="21" bcet="1" wcet="883" period="10000" deadline="10000" proc="1" Dep="20" Inf="" />
+	<task index="22" maj_fr="100000" prio="22" bcet="1" wcet="693" period="10000" deadline="10000" proc="1" Dep="" Inf="23" />
+	<task index="23" maj_fr="100000" prio="23" bcet="2" wcet="410" period="10000" deadline="10000" proc="1" Dep="22" Inf="24,25" />
+	<task index="24" maj_fr="100000" prio="24" bcet="5" wcet="121" period="10000" deadline="10000" proc="1" Dep="23" Inf="" />
+	<task index="25" maj_fr="100000" prio="25" bcet="7" wcet="168" period="10000" deadline="10000" proc="1" Dep="23" Inf="0,26,27" />
+	<task index="26" maj_fr="100000" prio="26" bcet="2" wcet="656" period="10000" deadline="10000" proc="1" Dep="25" Inf="" />
+	<task index="27" maj_fr="100000" prio="27" bcet="9" wcet="271" period="10000" deadline="10000" proc="1" Dep="25" Inf="" />
+	<task index="0" maj_fr="100000" prio="0" bcet="6" wcet="301" period="10000" deadline="10000" proc="0" Dep="25" Inf="1,2" />
+	<task index="1" maj_fr="100000" prio="1" bcet="3" wcet="296" period="10000" deadline="10000" proc="0" Dep="0" Inf="" />
+	<task index="2" maj_fr="100000" prio="2" bcet="2" wcet="575" period="10000" deadline="10000" proc="0" Dep="0" Inf="" />
+	<task index="3" maj_fr="100000" prio="3" bcet="6" wcet="961" period="10000" deadline="10000" proc="0" Dep="" Inf="4" />
+	<task index="4" maj_fr="100000" prio="4" bcet="4" wcet="907" period="10000" deadline="10000" proc="0" Dep="3" Inf="5" />
+	<task index="5" maj_fr="100000" prio="5" bcet="8" wcet="947" period="10000" deadline="10000" proc="0" Dep="4" Inf="6" />
+	<task index="6" maj_fr="100000" prio="6" bcet="3" wcet="97" period="10000" deadline="10000" proc="0" Dep="5" Inf="" />
+	<task index="7" maj_fr="100000" prio="7" bcet="8" wcet="267" period="10000" deadline="10000" proc="0" Dep="" Inf="8" />
+	<task index="8" maj_fr="100000" prio="8" bcet="6" wcet="190" period="10000" deadline="10000" proc="0" Dep="7" Inf="9" />
+	<task index="9" maj_fr="100000" prio="9" bcet="5" wcet="966" period="10000" deadline="10000" proc="0" Dep="8" Inf="" />
+	<task index="10" maj_fr="100000" prio="10" bcet="10" wcet="440" period="10000" deadline="10000" proc="0" Dep="" Inf="11,12,13" />
+	<task index="11" maj_fr="100000" prio="11" bcet="8" wcet="421" period="10000" deadline="10000" proc="0" Dep="10" Inf="" />
+	<task index="12" maj_fr="100000" prio="12" bcet="4" wcet="149" period="10000" deadline="10000" proc="0" Dep="10" Inf="" />
+	<task index="13" maj_fr="100000" prio="13" bcet="10" wcet="332" period="10000" deadline="10000" proc="0" Dep="10" Inf="" />
+	<task index="14" maj_fr="100000" prio="14" bcet="2" wcet="634" period="10000" deadline="10000" proc="0" Dep="" Inf="15" />
+	<task index="15" maj_fr="100000" prio="15" bcet="6" wcet="359" period="10000" deadline="10000" proc="0" Dep="14" Inf="" />
+	<task index="16" maj_fr="100000" prio="16" bcet="9" wcet="233" period="10000" deadline="10000" proc="0" Dep="" Inf="" />
+	<tlink src="77" dist="78" delay="2" />
+	<tlink src="78" dist="79" delay="7" />
+	<tlink src="78" dist="80" delay="7" />
+	<tlink src="78" dist="81" delay="0" />
+	<tlink src="81" dist="82" delay="2" />
+	<tlink src="83" dist="84" delay="1" />
+	<tlink src="84" dist="85" delay="3" />
+	<tlink src="85" dist="86" delay="6" />
+	<tlink src="86" dist="87" delay="10" />
+	<tlink src="61" dist="62" delay="9" />
+	<tlink src="62" dist="63" delay="1" />
+	<tlink src="63" dist="64" delay="10" />
+	<tlink src="63" dist="65" delay="8" />
+	<tlink src="65" dist="66" delay="4" />
+	<tlink src="66" dist="67" delay="4" />
+	<tlink src="66" dist="68" delay="4" />
+	<tlink src="68" dist="69" delay="2" />
+	<tlink src="70" dist="71" delay="0" />
+	<tlink src="71" dist="72" delay="1" />
+	<tlink src="73" dist="74" delay="3" />
+	<tlink src="74" dist="75" delay="8" />
+	<tlink src="74" dist="76" delay="10" />
+	<tlink src="74" dist="41" delay="10" />
+	<tlink src="42" dist="43" delay="10" />
+	<tlink src="42" dist="44" delay="10" />
+	<tlink src="42" dist="45" delay="4" />
+	<tlink src="42" dist="46" delay="9" />
+	<tlink src="42" dist="47" delay="3" />
+	<tlink src="48" dist="49" delay="0" />
+	<tlink src="48" dist="50" delay="9" />
+	<tlink src="50" dist="51" delay="6" />
+	<tlink src="50" dist="52" delay="6" />
+	<tlink src="52" dist="53" delay="2" />
+	<tlink src="53" dist="54" delay="6" />
+	<tlink src="54" dist="55" delay="7" />
+	<tlink src="56" dist="57" delay="0" />
+	<tlink src="56" dist="58" delay="0" />
+	<tlink src="59" dist="60" delay="9" />
+	<tlink src="59" dist="28" delay="5" />
+	<tlink src="28" dist="29" delay="2" />
+	<tlink src="30" dist="31" delay="4" />
+	<tlink src="32" dist="33" delay="1" />
+	<tlink src="34" dist="35" delay="9" />
+	<tlink src="36" dist="37" delay="9" />
+	<tlink src="37" dist="38" delay="4" />
+	<tlink src="38" dist="39" delay="9" />
+	<tlink src="38" dist="40" delay="2" />
+	<tlink src="38" dist="17" delay="5" />
+	<tlink src="17" dist="18" delay="8" />
+	<tlink src="18" dist="19" delay="0" />
+	<tlink src="20" dist="21" delay="3" />
+	<tlink src="22" dist="23" delay="5" />
+	<tlink src="23" dist="24" delay="3" />
+	<tlink src="23" dist="25" delay="10" />
+	<tlink src="25" dist="26" delay="8" />
+	<tlink src="25" dist="27" delay="3" />
+	<tlink src="25" dist="0" delay="10" />
+	<tlink src="0" dist="1" delay="7" />
+	<tlink src="0" dist="2" delay="7" />
+	<tlink src="3" dist="4" delay="9" />
+	<tlink src="4" dist="5" delay="9" />
+	<tlink src="5" dist="6" delay="5" />
+	<tlink src="7" dist="8" delay="4" />
+	<tlink src="8" dist="9" delay="5" />
+	<tlink src="10" dist="11" delay="9" />
+	<tlink src="10" dist="12" delay="4" />
+	<tlink src="10" dist="13" delay="7" />
+	<tlink src="14" dist="15" delay="5" />
+</system>
