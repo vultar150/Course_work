@@ -24,11 +24,11 @@
 	<task index="22" maj_fr="446275" prio="1" bcet="1" wcet="2000" period="446275" deadline="446275" proc="13" Dep="" Inf="24" />
 	<task index="23" maj_fr="446275" prio="1" bcet="1" wcet="2000" period="446275" deadline="446275" proc="14" Dep="" Inf="" />
 	<task index="24" maj_fr="446275" prio="2" bcet="1" wcet="2117" period="446275" deadline="446275" proc="14" Dep="22" Inf="" />
-    <link src="8" dst="7" delay="0"/>
-    <link src="3" dst="4" delay="0"/>
-    <link src="1" dst="3" delay="0"/>
-    <link src="0" dst="1" delay="0"/>
-    <link src="4" dst="2" delay="0"/>
+    <tlink src="8" dist="7" delay="0"/>
+    <tlink src="3" dist="4" delay="0"/>
+    <tlink src="1" dist="3" delay="0"/>
+    <tlink src="0" dist="1" delay="0"/>
+    <tlink src="4" dist="2" delay="0"/>
     <tlink src="10" dist="12" delay="0" />
     <tlink src="13" dist="15" delay="0" />
     <tlink src="16" dist="18" delay="0" />
